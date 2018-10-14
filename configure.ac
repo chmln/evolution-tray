@@ -1,4 +1,4 @@
-AC_INIT([evolution-on], [3.18.2], [https://github.com/KostadinAtanasov/evolution-on])
+AC_INIT([evolution-tray], [3.18.2], [https://github.com/chmln/evolution-tray])
 AC_CONFIG_SRCDIR(src)
 
 AM_INIT_AUTOMAKE
@@ -97,7 +97,7 @@ AC_SUBST([libappindicator_LIBS])
 dnl Internationalisation stuff
 ALL_LINGUAS="en"
 
-GETTEXT_PACKAGE=evolution-on
+GETTEXT_PACKAGE=evolution-tray
 AC_SUBST(GETTEXT_PACKAGE)
 AM_GLIB_GNU_GETTEXT
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [definition of GETTEXT_PACKAGE])
@@ -115,7 +115,7 @@ src/Makefile
 AC_OUTPUT
 
 echo ""
-echo "Evolution on plugin successfully configured"
+echo "evolution-tray plugin successfully configured"
 echo ""
 echo "    Installation path: $PLUGIN_INSTALL_DIR"
 echo ""

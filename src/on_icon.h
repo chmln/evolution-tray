@@ -113,7 +113,7 @@ create_icon(struct OnIcon *_onicon,
 			GTK_ICON_SIZE_LARGE_TOOLBAR);
 	const gchar *unread_icon = e_icon_factory_get_icon_filename("mail-unread",
 			GTK_ICON_SIZE_LARGE_TOOLBAR);
-	_onicon->appindicator = app_indicator_new("evolution-on", read_icon,
+	_onicon->appindicator = app_indicator_new("evolution-tray", read_icon,
 			APP_INDICATOR_CATEGORY_APPLICATION_STATUS);
 	app_indicator_set_status(_onicon->appindicator,
 			APP_INDICATOR_STATUS_ACTIVE);

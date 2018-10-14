@@ -21,10 +21,10 @@
 #define EVOLUTION_ON_ON_PROPERTIES_H
 
 #define GCONF_KEY_NOTIF_ROOT			"/apps/evolution/eplugin/mail-notification/"
-#define GCONF_KEY_TRAY_ROOT				"/apps/evolution/eplugin/evolution-on/"
+#define GCONF_KEY_TRAY_ROOT				"/apps/evolution/eplugin/evolution-tray/"
 
 #define NOTIF_SCHEMA					"org.gnome.evolution.plugin.mail-notification"
-#define TRAY_SCHEMA						"org.gnome.evolution.plugin.evolution-on"
+#define TRAY_SCHEMA						"org.gnome.evolution.plugin.evolution-tray"
 #define CONF_KEY_HIDDEN_ON_STARTUP		"hidden-on-startup"
 #define CONF_KEY_HIDE_ON_MINIMIZE		"hide-on-minimize"
 #define CONF_KEY_HIDE_ON_CLOSE			"hide-on-close"
